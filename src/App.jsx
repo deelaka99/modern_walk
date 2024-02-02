@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="bg-primary-background h-screen w-screen">
       <Router>
-        <div className="w-full mobile:h-[60px] tablet:h-[70px] laptop:h-[80px] flex justify-center items-center border-b-2 border-border">
+        <div className="w-full mobile:h-[8vh] laptop:h-[11vh] flex justify-center items-center border-b-2 border-border">
           <h1 className="font-roboto font-bold mobile:text-[20px] tablet:text-[25px] laptop:text-[35px] text-dark-font">
             <Link to={"/"}>Modern Walk</Link>
           </h1>
