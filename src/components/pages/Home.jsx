@@ -1,13 +1,18 @@
 import { Link } from "react-router-dom";
+import ItemsContainer from "../itemsContainer/ItemsContainer";
 
 function Home() {
   return (
     <div className="text-dark-font mobile:h-[91vh] tablet:h-[92vh] laptop:h-[89vh] w-full">
       {/* for the flash sale */}
-      <div className="bg-blue-font w-full h-1/2 p-2">
+      <div className="w-full h-1/2 mobile:py-2 mobile:px-4 tablet:py-3 tablet:px-6">
         <p className="font-bold mobile:text-[13px] tablet:text-[19px] laptop:text-[22px] mobile:text-center tablet:text-center laptop:text-left">
           Flash Sale
         </p>
+        <div className="w-full h-5/6 flex items-center justify-center gap-2">
+          <ItemsContainer />
+          <ItemsContainer />
+        </div>
       </div>
       {/* for the categories */}
       <div className="w-full h-1/2 mobile:py-2 mobile:px-4 tablet:py-3 tablet:px-6">
