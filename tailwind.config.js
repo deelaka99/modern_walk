@@ -11,6 +11,7 @@ export default {
       'white' :'#FFFFFF',
       'dark-font': '#0E0E0E',
       'blue-font':'#0E42FD',
+      'border':'#D9D9D9',
       'green-background':'#2BD9AF',
       'red-background':'#FF5E84',      
     },

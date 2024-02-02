@@ -1,8 +1,6 @@
-import Navbar from "../navbar/Navbar";
-
 function Home() {
   return (
-    <div className="text-blue-font w-full h-full">
+    <div className="text-blue-font">
         Home
     </div>
   );
