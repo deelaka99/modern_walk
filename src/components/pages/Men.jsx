@@ -31,7 +31,7 @@ function Men() {
       <div className="overflow-y-auto w-full h-full">
         {/* Map through chunks of menProducts array */}
         {chunkArray(menProducts, 4).map((row, index) => (
-          <div key={index} className="flex justify-center gap-5">
+          <div key={index} className="flex justify-center gap-5 mb-5">
             {/* Render items for each row */}
             {row.map((product, idx) => (
               <ItemsContainer
