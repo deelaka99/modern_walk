@@ -71,7 +71,7 @@ function Home() {
         <p className="font-bold mobile:text-[13px] tablet:text-[19px] laptop:text-[22px] mobile:text-center tablet:text-center laptop:text-left mb-2">
           Categories
         </p>
-        <div className="w-full h-5/6 laptop:flex laptop:gap-5">
+        <div className="w-full h-5/6 laptop:flex laptop:gap-5 laptop:p-5">
           <Link
             to={"/mens-clothing"}
             className="bg-green-background mobile:w-full mobile:h-1/2 laptop:w-1/2 laptop:h-full mobile:rounded laptop:rounded-xl flex items-center justify-center mobile:shadow tablet:shadow-md laptop:shadow-lg font-bold text-white mobile:text-[19px] tablet:text-[25px] laptop:text-[32px] hover:opacity-80 active:bg-blue-font mobile:mb-2 tablet:mb-3 laptop:mb-0"
